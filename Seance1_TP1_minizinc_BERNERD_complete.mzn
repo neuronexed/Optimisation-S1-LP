@@ -64,3 +64,5 @@ output [
   "marge = ", show(120.0*u + 200.0*c), " EUR/semaine\n",
   "(attendu : Urban = 75, Cargo = 30, marge = 15000 -- identique a TD1, Excel et Python)\n"
 ];
+
+%--- Observations : très facile à mettre en place pour une utilisation opérationnelle. Attention à selectionner un solveur adapté (HiGHS et non Gecode...) pour la résolution d'un problème linéaire
